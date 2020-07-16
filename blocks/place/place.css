@@ -1,0 +1,31 @@
+@import url(__title/place__title.css);
+@import url(__image/place__image.css);
+@import url(__website/place__website.css);
+@import url(__website-heading/place__website-url-heading.css);
+@import url(__website-url/place__website-url.css);
+@import url(__paragraph/place__paragraph.css);
+@import url(__paragraph-item/place__paragraph-item.css);
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 40px;
+    grid-template-areas: 
+        "title website"
+        "image paragraph"
+}
+
+@media (max-width: 768px) {
+    .place {
+        grid-gap: 0 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

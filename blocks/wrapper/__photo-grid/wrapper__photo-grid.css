@@ -1,0 +1,15 @@
+.wrapper__photo-grid {
+    margin: 92px 0;
+}
+
+@media (max-width: 768px) {
+    .wrapper__photo-grid {
+        margin: 88px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper__photo-grid {
+        margin: 64px 0;
+    }
+}

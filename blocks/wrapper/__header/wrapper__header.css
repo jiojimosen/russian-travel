@@ -1,0 +1,9 @@
+.wrapper__header {
+    margin-bottom: 56px;
+}
+
+@media (max-width: 1024px) {
+    .wrapper__header {
+        margin-bottom: 48px;
+    }
+}

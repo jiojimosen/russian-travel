@@ -1,0 +1,29 @@
+.cover__background {
+    width: 100%;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../../../images/background.png);
+    background-size: cover;   
+}
+
+@media (max-width: 1024px) {
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__background {
+        min-height: 200px;
+    }
+}

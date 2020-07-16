@@ -1,0 +1,24 @@
+.wrapper__intro {
+    margin-left: 148px;
+    margin-top: 92px;
+}
+
+@media (max-width: 1024px) {
+    .wrapper__intro {
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper__intro {
+        margin-top: 88px;
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper__intro {
+        margin-top: 64px;
+        margin-left: 0;
+    }
+}

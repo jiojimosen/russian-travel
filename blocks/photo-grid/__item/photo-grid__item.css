@@ -1,0 +1,12 @@
+.photo-grid__item {
+    width: 100%;
+}
+
+@media (max-width: 320px) {
+    .photo-grid__item {
+        margin-bottom: 12px;
+    }
+    .photo-grid__item:last-child {
+        margin-bottom: 0;
+    }
+}
