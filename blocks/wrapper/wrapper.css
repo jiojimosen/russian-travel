@@ -4,7 +4,7 @@
 @import url(__cover/wrapper__cover.css);
 @import url(__footer/wrapper__footer.css);
 
-@font-face {
+/*@font-face {
     font-family: 'Inter';
     font-style:  normal;
     font-weight: 100;
@@ -20,11 +20,10 @@
   font-display: swap;
   src: url("../../vendor/fonts/inter/woff2/Inter-Black.woff2?v=3.13") format("woff2"),
        url("../../vendor/fonts/inter/woff/Inter-Black.woff?v=3.13") format("woff");
-}
+}*/
 
   .wrapper {
-      font-family: 'Inter';
-      max-width: 1280px;
-      margin: 0 auto;
+      font-family: 'Inter',Arial,sans-serif;
+      max-width: 100%;
       background-color: #2A2C2F;
   }
