@@ -15,3 +15,10 @@
         line-height: 44px;
     }
 }
+ /*maybe*/
+@media (max-width: 767px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

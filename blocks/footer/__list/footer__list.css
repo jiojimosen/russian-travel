@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+/*Maybe*/
+@media (max-width: 767px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 320px) {
     .footer__list {
         flex-direction: column;

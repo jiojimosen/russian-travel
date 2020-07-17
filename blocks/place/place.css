@@ -24,7 +24,16 @@
 
 @media (max-width: 320px) {
     .place {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/*maybe*/
+@media (max-width: 767px) {
+    .place {
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }

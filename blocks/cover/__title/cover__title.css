@@ -9,6 +9,7 @@
     color: #fff;
     z-index: 2;
     text-decoration: none;
+    position: relative;
 }
 
 @media (max-width: 320px) {
